@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>自己紹介ページ</title>
+  <style>
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    profile-item {
+      margin-bottom: 12px;
+    }
+
+    .profile-item span {
+      font-weight: bold;
+    }
+
+    gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.gallery img {
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+    .twitter {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .twitter a {
+      color: #1da1f2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+   .recommend {
+  margin: 30px 0;
+  padding: 20px;
+  border: 2px dashed #333;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.recommend-text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.recommend-links a {
+  display: block;
+  font-size: 22px;
+  margin: 10px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.recommend-links a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>自己紹介</h1>
+
+    <div class="profile-item"><span>名前：</span>ののの(slack名)</div>
+    <div class="profile-item"><span>年齢：</span><span id="age">19</span></div>
+    <div class="profile-item"><span>出身地：</span>日本</div>
+    <div class="profile-item"><span>趣味：</span>絵を描いている、散歩、睡眠</div>
+    <div class="profile-item"><span>活動内容：</span>イラスト、ゲーム制作、演劇</div>
+
+    <p>普段は二次創作のイラストを描いているので数枚紹介します。</p>
+
+    <div class="gallery">
+      <img src="https://pbs.twimg.com/media/G_HDfLZWAAAIUA1?format=jpg&name=4096x4096"><br>
+      <img src="https://pbs.twimg.com/media/G9gOxaLboAAHxmu?format=jpg&name=4096x4096"><br>
+      <br>
+      <img src="https://pbs.twimg.com/media/G7YJ0LBb0AQkNQ6?format=jpg&name=large"><br>
+    </div>
+
+    <div class="twitter">
+  <p>
+    Twitter：
+    <a href="https://x.com/a_i_u_000_" target="_blank">
+      懺悔会見
+    </a>
+  </p>
+</div>
+
+  </div>
+
+<div class="recommend">
+  <div class="recommend-text">おすすめ ↓</div>
+  <div class="recommend-links">
+    <a href="https://twitter.com/nichijo_gumi" target="_blank">日常組 Twitter</a>
+    <a href="https://www.youtube.com/@Nichijo_Gumi" target="_blank">日常組 YouTube</a>
+  </div>
+</div>
+
+<p style="font-size:12px; color:#666; margin-top:30px;">
+　　本サイトは非公式の二次創作作品を掲載しています。  
+原作者様・公式とは一切関係ありません。
+</p>
+
+</body>
+</html>
